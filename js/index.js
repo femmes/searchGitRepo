@@ -45,10 +45,14 @@ $(document).ready(function(){
 						queryResult=data.items;
 					});
 					// console.log(queryResult);
-					loadResult(queryResult);
 					$('.totalCount').text("Found "+commaSeparateNumber(totalCount)+" repositories");
 					$('.countBlock').show();
 					resetInputs();
+					if(totalCount===0){
+						$('.resultContainer').append('NO RESULTS FOUND');
+						return 0;
+					}
+					loadResult(queryResult);
 				},
 				error: function(request, status, error){
 					console.log('ERROR: '+ request +' failed. status: '+status+'. '+ error);
