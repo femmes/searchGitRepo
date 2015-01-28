@@ -1,0 +1,21 @@
+{{#result}}
+<div class="resultBlock displayInline">
+	<div class="blockContainer">
+		<div class="headerBlock">
+			<div class="repoName orange title"><a  target="_blank" href="https://github.com/{{full_name}}">{{full_name}}</a></div>
+			<div class="blockStats subTitle">
+				<div class="language">{{#language}}{{language}}{{/language}}{{^language}}N/A{{/language}}</div>
+				<div class="stars"><i class="fa fa-star"></i> {{stargazers_count}}</div>
+			</div>
+		</div>
+		<div class="bodyBlock">
+			<div class="bodyBlockContainer">
+				<div class="bodySubText">
+					<div class="updated">{{updated_at}}</div>
+				</div>
+				<div class="blockDescription">{{#description}}{{description}}{{/description}}{{^description}}There is no description{{/description}}</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{/result}}

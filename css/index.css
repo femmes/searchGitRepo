@@ -1,0 +1,178 @@
+	a{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	a:hover{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	a:active{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	a:visited{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.hide{
+		display: none;
+	}
+	.floatLeft{
+		float: left;
+	}
+	.floatRight{
+		float: right;
+	}
+	.clearfloats{
+		clear: both;
+	}
+	.orange{
+		color: rgb(230,138,46);
+	}
+	.pointer{
+		cursor: pointer;
+	}
+	body{
+		background-color: ;
+	}
+	.bodyContainer{
+		height: 100%;
+		width: 100%;
+	}
+	#searchQ{
+		border: 0;
+		text-align: center;
+		font-size: 25px;
+		color: orange;
+	}
+	input:focus{
+		outline: 0;
+	}
+	input.main::-webkit-input-placeholder {
+		text-align: center; 
+		font-size: 25px;
+		color: orange;
+	}
+	input.main:-moz-placeholder { /* Firefox 18- */
+		text-align: center; 
+		font-size: 25px;  
+		color: orange;
+	}
+	input.main::-moz-placeholder {  /* Firefox 19+ */
+		text-align: center; 
+		font-size: 25px;  
+		color: orange;
+	}
+	input.main:-ms-input-placeholder {  
+		text-align: center; 
+		font-size: 25px;
+		color: orange;
+	}
+	.form{
+		position: relative;
+		top: 40%;
+	}
+	.formContent{
+		margin: 0 auto;
+		width: 35%;
+		min-width: 478px;
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.formContent{
+			width: 38%;
+			min-width: 520px;
+		}
+	}
+	.topForm{
+		width: 100%;
+		padding: 5px;
+	}
+	.advanceSearch{
+		width: 100%;
+		padding: 5px;
+	}
+	.advanceHeader{
+		text-align: center;
+	}
+	.formDiv{
+		padding: 5px;
+	}
+	.icons{
+		display:inline-block;
+		margin-top:8px;
+		position:absolute;
+	}
+	.icons div{
+		display:inline-block;
+		padding-right:5px;
+	}
+	.searchText{
+		padding-right:5px;
+		margin-top:-2px
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.searchText{
+			padding-right:0px;
+			margin-top:0px
+		}
+	}
+	.slideFormUp{
+		top: 0%;
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.advanceSearchContent{
+			margin-left: 31px;
+		}
+	}
+/*********************blockCSS*********************/
+	.queryResults{
+		padding: 5px 40px;
+	}
+	.resultBlock{
+		padding: 5px 20px 5px 0px;
+		width: 250px;
+		min-height: 100px;
+		max-height: 400px;
+		overflow: hidden;
+		vertical-align: top;
+	}
+	.headerBlock{
+		background-color: rgb(222,214,201);
+		padding: 3px;
+		border-radius: 5px;
+	}
+	.title{
+		font-size: 20px;
+	}
+	.subTitle{
+		font-size: 11px;
+	}
+	.language{
+		display: inline-block;
+	}
+	.stars{
+		display: inline-block;
+	}
+	.displayInline{
+		display: inline-block;
+	}
+	.updated{
+/*		color: rgb(136,209,202);*/
+		font-size: 12px;
+	}
+	.repoName{
+		overflow: hidden;
+	}
+/*********************blockCSS*********************/
