@@ -1,1 +1,1 @@
-derp
+Web application that uses GitHub API to query search results.
