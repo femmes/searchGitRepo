@@ -1,0 +1,286 @@
+	a{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	a:hover{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	a:active{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	a:visited{
+		text-decoration: none;
+		font-weight: none;
+		background-color: none;
+		color: inherit;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.hide{
+		display: none;
+	}
+	.floatLeft{
+		float: left;
+	}
+	.floatRight{
+		float: right;
+	}
+	.clearfloats{
+		clear: both;
+	}
+	.orange{
+		color: #e97f02;
+	}
+	.red{
+		color: #b90504;
+	}
+	.purple{
+		color: #490a3d;
+	}
+	.black{
+		color: black;
+	}
+	.pointer{
+		cursor: pointer;
+	}
+	body{
+		background-color: ;
+	}
+	.bodyContainer{
+		height: 100%;
+		width: 100%;
+	}
+	#searchQ{
+		border: 0;
+		text-align: center;
+		font-size: 25px;
+	}
+	input {
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+	}
+	input:focus{
+		outline: 0;
+	}
+	select{
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+	}
+	select:focus{
+		outline: 0;
+	}
+	.purple::-webkit-input-placeholder {
+		text-align: center; 
+		font-size: 25px;
+		color: #490a3d;
+	}
+	.purple:-moz-placeholder {
+		text-align: center;
+		font-size: 25px;
+		color: #490a3d;
+	}
+	.purple::-moz-placeholder {
+		text-align: center;
+		font-size: 25px;
+		color: #490a3d;
+	}
+	.purple:-ms-input-placeholder {  
+		text-align: center; 
+		font-size: 25px;
+		color: #490a3d;
+	}
+	.red::-webkit-input-placeholder {
+		text-align: center; 
+		font-size: 25px;
+		color: #b90504;
+	}
+	.red:-moz-placeholder {
+		text-align: center;
+		font-size: 25px;
+		color: #b90504;
+	}
+	.red::-moz-placeholder {
+		text-align: center;
+		font-size: 25px;
+		color: #b90504;
+	}
+	.red:-ms-input-placeholder {  
+		text-align: center; 
+		font-size: 25px;
+		color: #b90504;
+	}
+	.orange::-webkit-input-placeholder {
+		text-align: center; 
+		font-size: 25px;
+		color: #e97f02;
+	}
+	.orange:-moz-placeholder {
+		text-align: center;
+		font-size: 25px;
+		color: #e97f02;
+	}
+	.orange::-moz-placeholder {
+		text-align: center;
+		font-size: 25px;
+		color: #e97f02;
+	}
+	.orange:-ms-input-placeholder {  
+		text-align: center; 
+		font-size: 25px;
+		color: #e97f02;
+	}
+	.form{
+		position: relative;
+		top: 40%;
+	}
+	.formContent{
+		margin: 0 auto;
+		width: 35%;
+		min-width: 478px;
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.formContent{
+			width: 38%;
+			min-width: 520px;
+		}
+	}
+	.topForm{
+		width: 100%;
+		padding: 5px;
+	}
+	.advanceSearch{
+		width: 100%;
+		padding: 5px;
+	}
+	.advanceHeader{
+		text-align: center;
+	}
+	.formDiv{
+		padding: 5px;
+	}
+	.icons{
+		display:inline-block;
+		margin-top:8px;
+		position:absolute;
+		min-width: 34px;
+	}
+	.icons div{
+		display:inline-block;
+		padding-right:5px;
+	}
+	.searchText{
+		padding-right:5px;
+		margin-top:-2px
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.searchText{
+			padding-right:0px;
+			margin-top:0px
+		}
+	}
+	.slideFormUp{
+		top: 0%;
+		position: fixed;
+		width: 100%;
+		background-color: white;
+		z-index: 1;
+		border-bottom: 1px solid rgb(0,153,204);
+	}
+	.countBlock{
+		padding: 1%;
+		position: fixed;
+		right: 0;
+		z-index: 2;
+	}
+	@media screen and (max-width:780px){
+		.countBlock{
+			display: none !important;
+		}
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		.advanceSearchContent{
+			margin-left: 31px;
+		}
+		.countBlock{
+			padding: 1%;
+			position: fixed;
+			right: 0;
+			top: 4px;
+			z-index: 2;
+		}
+		@media screen and (max-width:924px){
+			.countBlock{
+				display: none !important;
+			}
+		}
+	}
+	.logoutBlock{
+		padding: 1%;
+		position: fixed;
+		left: 0;
+		z-index: 2;
+	}
+	.logoutTxt{
+		font-size: 12px;
+		cursor: pointer;
+	}
+/*********************RESULT BLOCKS*********************/
+	.queryResults{
+		padding: 5px 40px 20px;
+		position: relative;
+		top: 7%;
+	}
+	.resultBlock{
+		padding: 5px 20px 5px 0px;
+		width: 250px;
+		min-height: 100px;
+		max-height: 400px;
+		overflow: hidden;
+		vertical-align: top;
+	}
+	.headerBlock{
+		background-color: rgb(222,214,201);
+		padding: 3px;
+		border-radius: 5px;
+	}
+	.title{
+		font-size: 20px;
+	}
+	.subTitle{
+		font-size: 11px;
+		color: black;
+	}
+	.language{
+		display: inline-block;
+	}
+	.stars{
+		display: inline-block;
+	}
+	.displayInline{
+		display: inline-block;
+	}
+	.updated{
+		font-size: 12px;
+	}
+	.repoName{
+		overflow: hidden;
+	}
+	.moveDown{
+		top: 16%;
+	}
+	.bodyBlock{
+		color: black;
+	}
+/*********************RESULT BLOCKS*********************/
